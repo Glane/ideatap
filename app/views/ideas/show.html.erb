@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @idea.title %>
+</p>
+
+<p>
+  <strong>Short description:</strong>
+  <%= @idea.short_description %>
+</p>
+
+<p>
+  <strong>Long description:</strong>
+  <%= @idea.long_description %>
+</p>
+
+<p>
+  <strong>Idea assets url:</strong>
+  <%= @idea.idea_assets_url %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @idea.category %>
+</p>
+
+<p>
+  <strong>Coffer:</strong>
+  <%= @idea.coffer %>
+</p>
+
+<%= link_to 'Edit', edit_idea_path(@idea) %> |
+<%= link_to 'Back', ideas_path %>
